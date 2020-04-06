@@ -99,6 +99,10 @@ backend:
     ## Specify a http header
     # header: "headername headervalue"
 
+#streams:
+#  enabled: false
+#  query: YOUR_SQL_QUERY_HERE! Remember for ";" at the end.
+
 parsers:
   enabled: false
   ## List the respective parsers in key: value format per entry
